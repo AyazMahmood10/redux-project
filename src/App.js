@@ -1,9 +1,13 @@
+import React from 'react';
+import HomeContainers from './containers/HomeContainer'
 import './App.css';
 
 function App() {
   return (
     <>
-      <h1> Hello world! </h1>
+      <div className="App">
+        <HomeContainers />
+      </div>
     </>
   );
 }
